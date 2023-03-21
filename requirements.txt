@@ -1,0 +1,6 @@
+pyyaml
+acryl-datahub
+acryl-datahub-actions
+gql
+requests_toolbelt
+click
