@@ -2,7 +2,8 @@
 
 This python script can be used to connect to a Datahub instance using the GMS URL and Token and use the [Rest API availabe in datahub gms](https://datahubproject.io/docs/api/openapi/openapi-usage-guide) to take in the schema information from datahub and build a field level sources.yaml file that complies with the [DBT sources config](https://docs.getdbt.com/docs/build/sources) 
 
-It can detect both scraped and custom metadata
+It can detect both scraped and custom metadata but doesn't currently do a lot with that information
+_great place to expand :D_
 
 To use you need to set the following environment variables
 
